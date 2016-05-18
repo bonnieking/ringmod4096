@@ -1,0 +1,51 @@
+# Kicad module converted to gEDA PCB footprint by: Erich Heinzle
+# Kicad module converted from Eagle library by oshec.org
+# All rights reserved by original authors
+# No warranties express or implied
+# Footprint converted from Kicad Module trafo-xicon-42TM
+# Users of the foot print must ensure that the solder mask reliefs and clearances
+# are compatible with the PCB manufacturer's process tolerances
+# Pins and SMD pads have been converted from Kicad foot prints which
+# do not have solder mask relief or clearances specified.
+# Fairly sane default values have been used for solder mask relief and clearances.
+# Kicad module units: 0.1 mil
+# Footprint = module name: trafo-xicon-42TM
+# Text descriptor count: 1
+# Draw segment object count: 18
+# Draw circle object count: 2
+# Draw arc object count: 4
+# Pad count: 6
+#
+Element["" "P" "" "" 0 0 2000 15500 0 100 ""]
+(
+ElementLine[24400 9250 24400 23420 500]
+ElementLine[18500 29330 -18500 29330 500]
+ElementLine[-24400 -9250 -24400 -23420 500]
+ElementLine[-18500 -29330 18500 -29330 500]
+ElementLine[24400 -23420 24400 -9250 500]
+ElementLine[-43110 -9250 -24400 -9250 500]
+ElementLine[24400 -9250 43110 -9250 500]
+ElementLine[43110 9250 24400 9250 500]
+ElementLine[-24400 9250 -43110 9250 500]
+ElementLine[-43110 -9250 -43110 9250 500]
+ElementLine[43110 9250 43110 -9250 500]
+ElementLine[-24400 -9250 24400 -9250 500]
+ElementLine[24400 9250 -24400 9250 500]
+ElementLine[-24400 23420 -24400 9250 500]
+ElementLine[-43040 0 -35550 0 500]
+ElementLine[-39300 3740 -39300 -3740 500]
+ElementLine[35550 0 43040 0 500]
+ElementLine[39300 3740 39300 -3740 500]
+ElementArc[-39300 0 2645 2645 0 360 500]
+ElementArc[39300 0 2645 2645 0 360 500]
+ElementArc[18500 23420 5900 5900 180 -90 500]
+ElementArc[-18500 23420 5910 5910 0 90 500]
+ElementArc[-18500 -23420 5900 5900 0 -90 500]
+ElementArc[18500 -23420 5910 5910 270 -90 500]
+Pin[-14000 25000 5110 2000 5910 2750 "" "1" ""]
+Pin[0 25000 5110 2000 5910 2750 "" "2" ""]
+Pin[14000 25000 5110 2000 5910 2750 "" "3" ""]
+Pin[14000 -25000 5110 2000 5910 2750 "" "4" ""]
+Pin[0 -25000 5110 2000 5910 2750 "" "5" ""]
+Pin[-14000 -25000 5110 2000 5910 2750 "" "6" ""]
+)
