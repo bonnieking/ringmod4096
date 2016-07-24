@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:audio_transformer
+LIBS:ringmod-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -52,7 +53,7 @@ F 1 "D" H 4900 2400 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4900 2500 50  0001 C CNN
 F 3 "" H 4900 2500 50  0000 C CNN
 	1    4900 2500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L D D2
@@ -63,7 +64,7 @@ F 1 "D" H 4900 2850 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4900 2950 50  0001 C CNN
 F 3 "" H 4900 2950 50  0000 C CNN
 	1    4900 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D3
@@ -74,7 +75,7 @@ F 1 "D" H 4900 3250 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4900 3350 50  0001 C CNN
 F 3 "" H 4900 3350 50  0000 C CNN
 	1    4900 3350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D4
@@ -85,7 +86,7 @@ F 1 "D" H 4900 3550 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4900 3650 50  0001 C CNN
 F 3 "" H 4900 3650 50  0000 C CNN
 	1    4900 3650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L audio_transformer T2
@@ -164,67 +165,67 @@ Wire Wire Line
 Wire Wire Line
 	3950 3650 3850 3650
 $Comp
-L CONN_01X01 P?
+L CONN_01X01 P5
 U 1 1 573C67E5
 P 6200 3350
-F 0 "P?" H 6200 3450 50  0000 C CNN
+F 0 "P5" H 6200 3450 50  0000 C CNN
 F 1 "CONN_01X01" V 6300 3350 50  0000 C CNN
-F 2 "" H 6200 3350 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 6200 3350 50  0001 C CNN
 F 3 "" H 6200 3350 50  0000 C CNN
 	1    6200 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P?
+L CONN_01X01 P6
 U 1 1 573C68C8
 P 6200 3650
-F 0 "P?" H 6200 3750 50  0000 C CNN
+F 0 "P6" H 6200 3750 50  0000 C CNN
 F 1 "CONN_01X01" V 6300 3650 50  0000 C CNN
-F 2 "" H 6200 3650 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 6200 3650 50  0001 C CNN
 F 3 "" H 6200 3650 50  0000 C CNN
 	1    6200 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P?
+L CONN_01X01 P1
 U 1 1 573C695F
 P 3650 3350
-F 0 "P?" H 3650 3450 50  0000 C CNN
+F 0 "P1" H 3650 3450 50  0000 C CNN
 F 1 "CONN_01X01" V 3750 3350 50  0000 C CNN
-F 2 "" H 3650 3350 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 3650 3350 50  0001 C CNN
 F 3 "" H 3650 3350 50  0000 C CNN
 	1    3650 3350
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X01 P?
+L CONN_01X01 P2
 U 1 1 573C6A45
 P 3650 3650
-F 0 "P?" H 3650 3750 50  0000 C CNN
+F 0 "P2" H 3650 3750 50  0000 C CNN
 F 1 "CONN_01X01" V 3750 3650 50  0000 C CNN
-F 2 "" H 3650 3650 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 3650 3650 50  0001 C CNN
 F 3 "" H 3650 3650 50  0000 C CNN
 	1    3650 3650
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X01 P?
+L CONN_01X01 P4
 U 1 1 573C6C20
 P 5000 4200
-F 0 "P?" H 5000 4300 50  0000 C CNN
+F 0 "P4" H 5000 4300 50  0000 C CNN
 F 1 "CONN_01X01" V 5100 4200 50  0000 C CNN
-F 2 "" H 5000 4200 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 5000 4200 50  0001 C CNN
 F 3 "" H 5000 4200 50  0000 C CNN
 	1    5000 4200
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X01 P?
+L CONN_01X01 P3
 U 1 1 573C6CB3
 P 4750 4200
-F 0 "P?" H 4750 4300 50  0000 C CNN
+F 0 "P3" H 4750 4300 50  0000 C CNN
 F 1 "CONN_01X01" V 4850 4200 50  0000 C CNN
-F 2 "" H 4750 4200 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 4750 4200 50  0001 C CNN
 F 3 "" H 4750 4200 50  0000 C CNN
 	1    4750 4200
 	0    1    1    0   
