@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:audio_transformer
-LIBS:ringmod-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -53,7 +52,7 @@ F 1 "D" H 4900 2400 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4900 2500 50  0001 C CNN
 F 3 "" H 4900 2500 50  0000 C CNN
 	1    4900 2500
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L D D2
@@ -64,7 +63,7 @@ F 1 "D" H 4900 2850 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4900 2950 50  0001 C CNN
 F 3 "" H 4900 2950 50  0000 C CNN
 	1    4900 2950
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L D D3
@@ -75,7 +74,7 @@ F 1 "D" H 4900 3250 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4900 3350 50  0001 C CNN
 F 3 "" H 4900 3350 50  0000 C CNN
 	1    4900 3350
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L D D4
@@ -86,7 +85,7 @@ F 1 "D" H 4900 3550 50  0000 C CNN
 F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4900 3650 50  0001 C CNN
 F 3 "" H 4900 3650 50  0000 C CNN
 	1    4900 3650
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L audio_transformer T2
