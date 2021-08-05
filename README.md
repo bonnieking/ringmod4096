@@ -10,4 +10,4 @@ https://www.asciipr0n.com/4096/ringmod/
 
 ![unnamed (2)](https://user-images.githubusercontent.com/2189730/128299768-6021f7f4-6a54-4405-813b-629e569a61b4.png)
 
-![CmdmdDRVYAAVn_O](https://user-images.githubusercontent.com/2189730/128300039-2ea0cf1e-97bd-408e-9840-773d89008c23.jpeg)
+![x0x](https://user-images.githubusercontent.com/2189730/128300140-75892551-c341-489f-9ecb-8d72fb125bc0.jpeg)
