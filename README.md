@@ -10,4 +10,3 @@ https://www.asciipr0n.com/4096/ringmod/
 
 ![unnamed (2)](https://user-images.githubusercontent.com/2189730/128299768-6021f7f4-6a54-4405-813b-629e569a61b4.png)
 
-![x0x](https://user-images.githubusercontent.com/2189730/128300140-75892551-c341-489f-9ecb-8d72fb125bc0.jpeg =250x)
